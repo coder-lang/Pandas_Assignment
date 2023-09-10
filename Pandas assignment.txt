@@ -1,0 +1,49 @@
+Q1. Loading a CSV into a Pandas DataFrame: Use the pd.read_csv('file.csv') function to read a CSV file into a Pandas DataFrame.
+
+Q2. Checking Data Type of a Column: Use the df['column_name'].dtype or df.dtypes['column_name'] to check the data type of a specific column in a DataFrame.
+
+Q3. Selecting Rows Based on Condition: Use boolean indexing like df[df['column_name'] > value] to select rows based on a condition.
+
+Q4. Renaming Columns: Use the df.rename(columns={'old_name': 'new_name'}) method to rename columns in a DataFrame.
+
+Q5. Dropping Columns: Use the df.drop(columns=['column_name']) method to drop columns from a DataFrame.
+
+Q6. Finding Unique Values: Use df['column_name'].unique() to find unique values in a specific column.
+
+Q7. Counting Missing Values: Use df.isnull().sum() to count the number of missing values in each column.
+
+Q8. Filling Missing Values: Use df.fillna(value) to fill missing values with a specific value in a DataFrame.
+
+Q9. Concatenating DataFrames: Use pd.concat([df1, df2]) to concatenate two DataFrames vertically.
+
+Q10. Merging DataFrames: Use pd.merge(df1, df2, on='common_column') to merge two DataFrames on a specific column.
+
+Q11. Grouping and Aggregating: Use df.groupby('column_name').agg({'column_to_aggregate': 'aggregation_function'}) to group data and apply an aggregation function.
+
+Q12. Pivoting a DataFrame: Use df.pivot(index='index_column', columns='column_to_pivot', values='values_column') to pivot a DataFrame.
+
+Q13. Changing Data Type of a Column: Use df['column_name'] = df['column_name'].astype(new_data_type) to change the data type of a column.
+
+Q14. Sorting by a Column: Use df.sort_values(by='column_name') to sort a DataFrame by a specific column.
+
+Q15. Creating a DataFrame Copy: Use df.copy() to create a copy of a DataFrame.
+
+Q16. Filtering Rows by Multiple Conditions: Combine conditions with & (and) and | (or) operators inside the boolean indexing, e.g., df[(condition1) & (condition2)].
+
+Q17. Calculating Mean: Use df['column_name'].mean() to calculate the mean of a column.
+
+Q18. Calculating Standard Deviation: Use df['column_name'].std() to calculate the standard deviation of a column.
+
+Q19. Calculating Correlation: Use df['column1'].corr(df['column2']) to calculate the correlation between two columns.
+
+Q20. Selecting Specific Columns by Labels: Use df[['column1', 'column2']] to select specific columns by their labels.
+
+Q21. Selecting Specific Rows by Indexes: Use df.iloc[indexes] to select specific rows by their integer indexes.
+
+Q22. Sorting by a Column: Use df.sort_values(by='column_name') to sort a DataFrame by a specific column.
+
+Q23. Creating a New Column Based on Another: Use df['new_column'] = df['existing_column'] * some_value to create a new column based on existing data.
+
+Q24. Removing Duplicates: Use df.drop_duplicates() to remove duplicate rows from a DataFrame.
+
+Q25. Difference Between .loc and .iloc: .loc is used for label-based indexing, while .iloc is used for integer-based indexing. For example, df.loc[1] selects the row with label 1, while df.iloc[1] selects the second row (integer index 1).
